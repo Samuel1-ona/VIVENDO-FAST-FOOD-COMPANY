@@ -27,42 +27,39 @@ takes to close claims.
 
 **The dataset contains one row for each claim**.
 
-Column Name                       -                      Criteria
-
-claim_id Column : Nominal. The unique identifier of the claim.Missing values are not possible due to the database structure.
-                                                      
-                                                      
-time_to_close Column :Discrete. The number of days to close the claim. Any positive value.Replace missing values with the overall median time to close.
-                                                      
-                                                      
-                                                      
-claim_amount Column : Continuous. The initial claim requested in the currency of Brazil,rounded to 2 decimal places.Replace missing values with the overall median claim amount.
 
 
+1.Claim_id column :   Nominal. The unique identifier of the claim. Missing values are not possible due to the database structure.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-amount_paid Column : Continuous. Final amount paid. In the currency of Brazil. Rounded to 2 decimal places. Replace missing values with the overall median amount paid.
+2.Time_to_close column :  Discrete. The number of days to close the claim. Any positive value. Replace missing values with the overall median time to close.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+3.Claim_amount column :  Continuous. The initial claim requested in the currency of Brazil,rounded to 2 decimal places. Replace missing values with the overall median claim amount.
 
-location Column:Nominal. Location of the claim, one of “RECIFE”, “SAO LUIS”, “FORTALEZA”, or “NATAL”.Remove missing values.
-                                                     
-                                                     
-                                                     
-                                                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- individuals_on_claim Column :  Discrete. Number of individuals on this claim. Minimum 1 person. Replace missing value with 0.
-                                                     
-                                                     
-                                                     
- linked_cases Column :Nominal. Whether this claim is linked to other cases. Either TRUE or FALSE.Replace missing values with FALSE. 
+4. Amount_paid column :  Continuous. Final amount paid. In the currency of Brazil. Rounded to 2 decimal places. Replace missing values with the overall median amount paid.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-cause Column : Nominal. Cause of the food poisoning. One of “vegetable”, “meat” or “unknown”. Replace missing values with ‘unknown’.
+5.Location column:  Nominal.  Location of the claim, one of “RECIFE”, “SAO LUIS”, “FORTALEZA”, or “NATAL”.  Remove missing values.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+6. Individuals_on_claim column :  Discrete. Number of individuals on this claim. Minimum 1 person. Replace missing value with 0.
 
-                                                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. Linked_cases column : Nominal.  Whether this claim is linked to other cases. Either TRUE or FALSE. Replace missing values with FALSE. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8. Cause column : Nominal. Cause of the food poisoning. One of “vegetable”, “meat” or “unknown”. Replace missing values with ‘unknown’.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                      
                                                      
                                                      
