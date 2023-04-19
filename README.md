@@ -81,6 +81,8 @@ The original data is 2000 rows and 8 columns 14 rows was removed due to duplicat
 2.The Linked_case column has 26 missing values, all of which were changed to FALSE.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# DESCRIPTIONS
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1.The Claim_id has 1000 distinct and 1000 unique values.
 
