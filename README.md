@@ -9,21 +9,21 @@ Customers often claim compensation from the company for food poisoning. The lega
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#TOOLS USED FOR THE ANALYSIS 
+# TOOLS USED FOR THE ANALYSIS 
 
 1.EXCEL
 2.POWER BI
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#PROBLEM STATEMENTS
+# PROBLEM STATEMENTS
 
 The head of the legal department wants a report on how each location differs in the time it
 takes to close claims.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#DATA
+# DATA
 
 **The dataset contains one row for each claim**.
 
