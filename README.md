@@ -1,6 +1,6 @@
 # VIVENDO-FAST-FOOD-COMPANY
 
-**Vivendo fast food company in Brazil with over 200 outlet 
+**Vivendo** fast food company in Brazil with over 200 outlet 
 Customers often claim compensation from the company for food poisoning. The legal team processes these claims.The legal team maintains offices in RECIFE, SAO LUIS, FORTALEZA, and NATAL.
 
 
